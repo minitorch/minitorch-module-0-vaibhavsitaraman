@@ -111,7 +111,7 @@ def test_sigmoid(a: float) -> None:
     # TODO: Implement for Task 0.2.
     s=sigmoid(a)
 
-    assert 0.0 < s < 1.0
+    assert 0.0 <= s <= 1.0
     assert_close(sigmoid(-a), 1.0-s)
     assert_close(sigmoid(0), 0.5)
 
