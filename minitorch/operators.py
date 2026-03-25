@@ -66,7 +66,7 @@ def is_close(x: float, y: float):
     return abs(x - y) < 1e-2
 
 
-def sigmoid(x: float):
+def sigmoid(x: float) -> float:
     if x >= 0:
         return 1.0 / (1.0 + math.exp(-x))
     else:
