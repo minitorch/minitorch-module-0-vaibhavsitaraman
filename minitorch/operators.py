@@ -3,7 +3,7 @@
 import math
 
 # ## Task 0.1
-from typing import Callable, Iterable
+from typing import Callable, Iterable, List
 
 #
 # Implementation of a prelude of elementary functions.
@@ -118,5 +118,16 @@ def relu_back(x: float, y: float):
 # - sum: sum lists
 # - prod: take the product of lists
 
+def addLists(a: list[float], b: list[float]):
+    return (1,1)
+
+def negList(ls: List[float]):
+    return ls
+
+def sum(ls: List[float]):
+    return 3
+
+def prod(ls: List[float]):
+    return 3
 
 # TODO: Implement for Task 0.3.
